@@ -4,12 +4,12 @@
     padding-left: 10px;
     padding-right: 5px;
     text-align: center;
-    background-color: #219ebc;
+    
 }
 
 .box{
     color: #fff;
-    width: 90%;
+    width: 100%;
     font-family: 'lobster', cursive;
     background-color: #023047;
     font-size:50px;
@@ -25,6 +25,16 @@ ul {
     align-items: left;
     
 }
+
+.formulario {
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', bold;
+    font-size:20px;
+    border-radius: 50px;
+    padding-top: 10px;
+    background:#fb850575;
+}
  
 
 #clientes {
@@ -33,13 +43,68 @@ ul {
     color: #fff;
     background-color: #fb8500;
     
-    height: 10px;
-    width: 100px;
-    border-radius: 30px;
+    height: 100px;
+    width:90%;
+    border-radius: 20px;
     padding-left: 10px;
     padding-top: 10px;
+    border-style: double;
 }
+
+
 p {
     background-color: #023047;
 }
 
+button {
+    background-color: #023047;
+    color: #fff;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    cursor: pointer;
+    scrollbar-darkshadow-color: black;
+}
+
+label {
+    font-size: 20px;
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #023047;
+    text-size:20px;
+}
+
+#titulo{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #023047;
+    border: solid 2px #023047;
+}
+
+#valor {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
